@@ -13,7 +13,7 @@ function css(done) {
     done();
 };
 function dev() {
-    watch('src/scss/app.scss', css);
+    watch('src/scss/**/*.scss', css);
 }
 function tareaDefault() {
     console.log("Soy la teara por default");
