@@ -24,10 +24,12 @@ p {
 }
 a {
     text-decoration: none;
+    color: v.$negro;
 }
 img {
     max-width: 100%;
     display: block;
+    height: auto;
 }
 ul {
     list-style: none;
